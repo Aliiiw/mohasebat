@@ -1,3 +1,6 @@
+% Ali Rahimi, Reihaneh AkbariFard, Amirhossein Zamani
+% 9932120, 9932107, 9932100
+
 clear , clc ,close all;
 
 f = @(x) sin(31*x) - 2*cos(23*x);
@@ -27,7 +30,7 @@ for i = 1:numbersOfData
     fprintf('range of answers from  %f to %f \n' , a(i), b(i))
 end
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% PART B %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Part B
 answer = [];
 for i = 1:numbersOfData 
     for j = 1:10
@@ -50,6 +53,4 @@ end
 
 fprintf('\nanswers: ');
 disp(answer);
-            
-    
   

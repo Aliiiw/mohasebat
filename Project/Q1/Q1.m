@@ -3,7 +3,7 @@
 
 % variables in order are x, y, z, w, m
 
-function gauss_elimnation()
+%function gauss_elimnation()
 
 matrixInput = input('input coefficients as a matrix: ');
 matrixAnswers = input('input answers as a matrix: ');
@@ -26,4 +26,3 @@ for i = length(1:rows) - (1:rows) + 1
 end
 
 fprintf("  x = %f\n  y = %f\n  z = %f\n  w = %f\n  m = %f\n", answer(1), answer(2), answer(3), answer(4), answer(5));
-end

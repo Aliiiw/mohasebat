@@ -1,10 +1,11 @@
 % Ali Rahimi, Reihaneh AkbariFard, Amirhossein Zamani
 % 9932120, 9932107, 9932100
+%bisection method
+
 function bisection_Q2_A (x0, x1, value, fx)
 
     stepReapet = 0;
     flag = true;
-    temp = 0;
 
     while flag
 
@@ -27,6 +28,6 @@ function bisection_Q2_A (x0, x1, value, fx)
             break;
         end
         
-        end
+     end
     fprintf("number of n is =  %d \n", stepReapet)
 end
