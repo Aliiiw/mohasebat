@@ -1,3 +1,6 @@
+% Ali Rahimi , Reihaneh AkbariFard , Amirhossein Zamani
+% 9932120, 9932107, 9932100
+
 clear,clc
 file = fopen('deta.txt','r');
 data =  fscanf(file, '%f');

@@ -1,3 +1,6 @@
+% Ali Rahimi , Reihaneh AkbariFard , Amirhossein Zamani
+% 9932120, 9932107, 9932100
+
 function [T, X1, X2] = RK4_function(f1, f2, tspan, x10, x20, n)
 a = tspan(1); 
 b = tspan(2);
