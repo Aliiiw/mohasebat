@@ -1,6 +1,8 @@
+# Ali Rahimi , Reihaneh AkbariFard , Amirhossein Zamani
+# 9932120, 9932107, 9932100
+
 import numpy
 import matplotlib.pyplot as plt
-
 
 a_f = 10
 b_f = 8
@@ -29,8 +31,6 @@ for i in range ( a+1 ):
 for j in range ( b+1):
     f[0][j] = f0y(j*h)
     f[a][j] = fay(j*h)
-
-
 
 pos = {}
 
@@ -85,5 +85,3 @@ fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 ax.plot_wireframe(X, Y, Z, rstride=1, cstride=1)
 plt.show()
-
-
