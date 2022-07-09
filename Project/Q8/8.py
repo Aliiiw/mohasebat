@@ -1,7 +1,7 @@
 # Ali Rahimi , Reihaneh AkbariFard , Amirhossein Zamani
 # 9932120, 9932107, 9932100
 
-import numpy
+#import numpy
 import matplotlib.pyplot as plt
 
 c1 = 50*10**(-6)
@@ -15,8 +15,19 @@ R3 = 2000
 R4 = 3000
 R5 = 2000
 
-#R = R5 + (1/(1/R3+1/R4))
-R = 3200
+c1 = 50
+c2 = 100
+l1 = 50
+l2 = 10
+es = 20
+R1 = 2
+R2 = 5
+R3 = 2
+R4 = 3
+R5 = 2
+
+R = R5 + (1/(1/R3+1/R4))
+#R = 3200
 esp = (R4/(R3+R4))*es
 
 h = 0.01
@@ -61,4 +72,13 @@ for i in range(700) :
     I_l2 +=  [i_l2]
     I_l2p += [i_l2p]
 
-print(i_l1,i_l2)
+
+Xs = range(701)
+
+plt.plot(Xs,V_c1,color ='r' , label = 'V_c1' )
+plt.plot(Xs,V_c2,color ='g' , label = 'V_c2' )
+plt.plot(Xs,I_l1,color ='b' , label = 'I_l1' )
+plt.plot(Xs,I_l2,color ='y' , label = 'I_l2' )
+
+plt.legend()
+plt.show()
