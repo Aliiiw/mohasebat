@@ -59,3 +59,5 @@ for i in range(700) :
     I_l1p += [i_l1p]
     I_l2 +=  [i_l2]
     I_l2p += [i_l2p]
+
+print(i_l1,i_l2)
