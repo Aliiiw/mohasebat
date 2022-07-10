@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 a_f = 10
 b_f = 8
-h = 0.01
+h = 0.1
 a = 1000
 b = 800
 
