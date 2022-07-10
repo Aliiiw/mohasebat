@@ -56,7 +56,7 @@ end
 plot(ddfx)
 
 disp('Integral = ')
-disp(simpson)
+disp(simpson / 2)
 
 %fprintf('Moshtagh Aval = %f\n', dfx)
 
